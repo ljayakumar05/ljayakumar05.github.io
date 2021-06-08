@@ -89,11 +89,16 @@ body {
 }
 .btn-danger{
   background-color: #AC2615; 
-  border: .1rem solid #AC2615;
+  border: .05rem solid #AC2615;
 }
 .btn-primary{
   background-color: #4981b3;
-  border: .1rem solid #4981b3;
+  border: .05rem solid #4981b3;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: #68a0d2!important;
+  border: .05rem solid #68a0d2!important;
 }
 
 
@@ -102,6 +107,7 @@ body {
 .fixed-background {
   overflow: hidden; /*-- Correction for iOS --*/
 }
+
 
 
 /*-- Emoji Navbar --*/
