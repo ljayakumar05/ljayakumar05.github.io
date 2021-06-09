@@ -104,10 +104,23 @@ body {
 
 /*===== FIXED BACKGROUND IMG =====*/
  
-.fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
+.fixed{
+  background-image: url('../img/matrix.jpg');
+  position: fixed;
 }
-
+.fixed-background{
+  padding: 10rem 0;
+}
+.emoji{
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+  min-height: 0!important;
+  padding: .4rem 0!important;
+}
+.emoji .svg-inline--fa{
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+}
 
 
 /*-- Emoji Navbar --*/
