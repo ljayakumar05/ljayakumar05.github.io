@@ -1,4 +1,5 @@
-document.getElementById("demo").innerHTML = "Hello world";
+document.getElementById("demo").innerHTML = "Jai";
 
 alert("Hello world");
  
+console.log(05+05); 
