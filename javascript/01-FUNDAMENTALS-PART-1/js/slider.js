@@ -14,6 +14,12 @@ console.log(myFirstJob);
 let myName = "jayakumar";
 console.log(myName);
 
-myName = "JAI";
+myName = "JAI"; 
 console.log(myName);
 console.log(typeof myName); 
+
+let firstName = "Jayakumar";
+
+console.log(typeof myName);
+
+console.log(typeof firstName);
