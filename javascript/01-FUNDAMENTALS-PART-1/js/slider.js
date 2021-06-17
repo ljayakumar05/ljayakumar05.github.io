@@ -12,7 +12,7 @@ let myCurrentJob = "Teacher";
 console.log(myFirstJob);
 
 let myName = "jayakumar";
-console.log(myName);
+console.log(myName); 
 
 myName = "JAI"; 
 console.log(myName);
@@ -22,4 +22,5 @@ let firstName = "Jayakumar";
 
 console.log(typeof myName);
 
+console.log(typeof firstName);
 console.log(typeof firstName);
