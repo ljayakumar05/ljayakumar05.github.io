@@ -93,23 +93,33 @@
 
 // if elst statement **
 
-const firstName = 'Jayakumar';
-const age = 19;
+// const firstName = 'Jayakumar';
+// const age = 19;
 
-const isoldEnough = age >=18 ;
+// const isoldEnough = age >=18 ;
+ 
+// if(isoldEnough) {
+//     console.log('jai can start driving license 😀');
+// }else{
+//     console.log('sorry Jai 😌');
+// } 
+ 
+// const birthYear = 1992;
 
-if(isoldEnough) {
-    console.log('jai can start driving license 😀');
-}else{
-    console.log('sorry Jai 😌');
-} 
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// }else{
+//     century = 21;
+// }
+// console.log(century);
 
-const birthYear = 1992;
+const age = 18;
+if(age === 18) console.log('you just became ab adult.');
 
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-}else{
-    century = 21;
-}
-console.log(century);
+
+
+
+
+
+
