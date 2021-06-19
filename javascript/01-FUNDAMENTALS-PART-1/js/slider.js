@@ -117,8 +117,12 @@
 const age = 18;
 if(age === 18) console.log('you just became ab adult.');
 
+console.log(prompt('What is Your Name.'));
 
 
+const studentMark = prompt('What is your mark!');
+
+console.log(typeof studentMark);
 
 
 
