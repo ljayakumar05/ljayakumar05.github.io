@@ -123,7 +123,10 @@ console.log(prompt('What is Your Name.'));
 const studentMark = prompt('What is your mark!');
 
 console.log(typeof studentMark);
+ 
+console.log(typeof studentMark);
 
+console.log(typeof studentMark);
 
 
 
