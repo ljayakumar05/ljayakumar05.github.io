@@ -117,19 +117,50 @@
 const age = 18;
 if(age === 18) console.log('you just became ab adult.');
 
-console.log(prompt('What is Your Name.'));
+// console.log(prompt('What is Your Name.'));
 
-console.log(prompt('What is Your Name.'));
+// console.log(prompt('What is Your Name.'));
 
 
 
-const studentMark = prompt('What is your mark!');
+// const studentMark = prompt('What is your mark!');
 
-console.log(typeof studentMark);
+// console.log(typeof studentMark);
  
-console.log(typeof studentMark);
+// console.log(typeof studentMark);
 
-console.log(typeof studentMark);
+// console.log(typeof studentMark);
 
 
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas =(88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
 
+// if(scoreDolphins > scoreKoalas){
+//     console.log('Dolphins win the trophy 🏆');
+// }else if(scoreKoalas > scoreDolphins){
+//     console.log('Koalas win the trophy 🏆');
+// }else if(scoreDolphins === scoreKoalas){
+//     console.log('Both win the trophy');
+// }
+ 
+
+const day = 'friday';
+
+switch (day){
+    case 'monday':
+        console.log('plan course structure');
+        break;
+    case 'tuesday':
+        console.log('Go to coding meetup');
+        break;
+    case 'wednesday':
+        console.log('write code examples');
+        break;
+    case 'friday':
+        console.log('today is friday!');
+        console.log("hello world write code example in comming to weekend ");
+        break;
+    default:
+        console.log('Not a valid day!');    
+}
