@@ -28,8 +28,18 @@
     const orangePieces = cutPieces(oranges);
 
     const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
-    return juice;
+    return juice; 
 
   }
   
   console.log(fruitProcessor(2,3));
+
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+ function checkWinner () {
+
+ }
+
+ //Array
+ 
