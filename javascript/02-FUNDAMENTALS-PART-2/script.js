@@ -34,12 +34,19 @@
   
   console.log(fruitProcessor(2,3));
 
-
-const calcAverage = (a, b, c) => (a + b + c) / 3;
-
- function checkWinner () {
-
+ //Array
+ const friend = {
+     firstName : 'jayakumar',
+     lastName : 'loganathan',
+     age : 1992 - 2021,
+     job : 'web developer',
+     frindes : ['gopi', 'hari', 'ganga', 'siva']
  }
 
- //Array
- 
+ console.log(friend); 
+ console.log(friend.frindes);
+ console.log(friend['firstName']);
+
+ const nameKey = 'Name';
+ console.log(friend['first' + nameKey]);
+ console.log(friend['last' + nameKey]); 
