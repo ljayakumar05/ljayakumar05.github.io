@@ -39,6 +39,7 @@ const friend = {
   age: 1992 - 2021,
   job: "web developer",
   frindes: ["gopi", "hari", "ganga", "siva"],
+  boys: ["gopi", "haris", "gangae", "sivane"],
 };
 
 console.log(friend);
