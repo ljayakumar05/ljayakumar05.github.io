@@ -31,6 +31,7 @@ const fruitProcessor = function (apples, oranges) {
 };
 
 console.log(fruitProcessor(2, 3));
+console.log(fruitProcessor(2, 3));
 
 //Array
 const friend = {
