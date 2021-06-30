@@ -42,6 +42,7 @@ const friend = {
 };
 
 console.log(friend);
+console.log(friend);
 console.log(friend.frindes);
 console.log(friend["firstName"]);
 
