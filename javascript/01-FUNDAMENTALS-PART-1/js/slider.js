@@ -159,4 +159,7 @@ switch (day) {
   default:
     console.log("Not a valid day!");
 }
-console.log("hello");
+
+const jaiAge = 22;
+
+console.log(`My age is ${jaiAge}.`);
