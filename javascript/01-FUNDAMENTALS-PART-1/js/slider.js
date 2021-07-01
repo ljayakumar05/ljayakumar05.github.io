@@ -1,4 +1,4 @@
-// console.log( 5 + 5 ); 
+// console.log( 5 + 5 );
 
 // let js = "amazing";
 
@@ -12,12 +12,12 @@
 // console.log(myFirstJob);
 
 // let myName = "jayakumar";
-// console.log(myName); 
-
-// myName = "JAI"; 
 // console.log(myName);
-// console.log(typeof myName); 
- 
+
+// myName = "JAI";
+// console.log(myName);
+// console.log(typeof myName);
+
 // let firstName = "Jayakumar";
 
 // console.log(typeof myName);
@@ -34,7 +34,7 @@
 // const now = 2021;
 // const ageJai = now - 1992;
 // const agejothi = now - 1993;
-// console.log(ageJai, agejothi);  
+// console.log(ageJai, agejothi);
 
 // console.log(ageJai * 2, ageJai / 10, 2 ** 3);
 
@@ -54,7 +54,6 @@
 // //Comparison Operatiors
 
 // console.log(ageJai < agejothi);
-
 
 // const massMark = 78;
 // const heightMark = 1.69;
@@ -86,10 +85,10 @@
 
 // const jail = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
 
-// console.log(jail); 
+// console.log(jail);
 
-// console.log(`hello 
-// world`); 
+// console.log(`hello
+// world`);
 
 // if elst statement **
 
@@ -97,13 +96,13 @@
 // const age = 19;
 
 // const isoldEnough = age >=18 ;
- 
+
 // if(isoldEnough) {
 //     console.log('jai can start driving license 😀');
 // }else{
 //     console.log('sorry Jai 😌');
-// } 
- 
+// }
+
 // const birthYear = 1992;
 
 // let century;
@@ -115,22 +114,19 @@
 // console.log(century);
 
 const age = 18;
-if(age === 18) console.log('you just became ab adult.');
+if (age === 18) console.log("you just became ab adult.");
 
 // console.log(prompt('What is Your Name.'));
 
 // console.log(prompt('What is Your Name.'));
-
-
 
 // const studentMark = prompt('What is your mark!');
 
 // console.log(typeof studentMark);
- 
-// console.log(typeof studentMark);
 
 // console.log(typeof studentMark);
 
+// console.log(typeof studentMark);
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas =(88 + 91 + 110) / 3;
@@ -143,24 +139,24 @@ if(age === 18) console.log('you just became ab adult.');
 // }else if(scoreDolphins === scoreKoalas){
 //     console.log('Both win the trophy');
 // }
- 
 
-const day = 'friday';
+const day = "friday";
 
-switch (day){
-    case 'monday':
-        console.log('plan course structure');
-        break;
-    case 'tuesday':
-        console.log('Go to coding meetup');
-        break;
-    case 'wednesday':
-        console.log('write code examples');
-        break;
-    case 'friday':
-        console.log('today is friday!');
-        console.log("hello world write code example in comming to weekend ");
-        break;
-    default:
-        console.log('Not a valid day!');    
+switch (day) {
+  case "monday":
+    console.log("plan course structure");
+    break;
+  case "tuesday":
+    console.log("Go to coding meetup");
+    break;
+  case "wednesday":
+    console.log("write code examples");
+    break;
+  case "friday":
+    console.log("today is friday!");
+    console.log("hello world write code example in comming to weekend ");
+    break;
+  default:
+    console.log("Not a valid day!");
 }
+console.log("hello");
