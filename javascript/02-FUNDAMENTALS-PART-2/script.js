@@ -126,3 +126,10 @@ function update() {
     next.disabled = false;
   }
 }
+console.log("hello jai");
+
+function onclickButton() {
+  document.querySelector(".nameColor").style.color = "red";
+}
+
+document.querySelector(".colorChange").style.backgroundColor = "yellow";
