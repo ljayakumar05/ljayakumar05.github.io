@@ -7,6 +7,8 @@ function App() {
       <center>
         <ExpenseItem></ExpenseItem>
         <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
       </center>
     </div>
   );
