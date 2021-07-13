@@ -6,6 +6,10 @@ function App() {
       <h2>Let's get started!</h2>
       <center>
         <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
+        <ExpenseItem></ExpenseItem>
       </center>
     </div>
   );
