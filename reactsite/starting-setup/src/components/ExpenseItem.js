@@ -7,6 +7,8 @@ function ExpenseItem() {
 
   const clickHandler = () => {
     let title = "Updated Jayakumar!";
+    7;
+    console.log(title);
     console.log(title);
   };
 
@@ -17,7 +19,7 @@ function ExpenseItem() {
         <h2>{expenseTitle}</h2>
         <div className="expense-item__price">${expenseAmount}</div>
       </div>
-      <button onClick={clickHandler}>Change Title</button>
+      <button onClick={clickHandler}>Change Titlesss</button>
     </div>
   );
 }
