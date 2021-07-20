@@ -7,7 +7,6 @@ function ExpenseItem() {
 
   const clickHandler = () => {
     let title = "Updated Jayakumar!";
-    7;
     console.log(title);
     console.log(title);
   };
