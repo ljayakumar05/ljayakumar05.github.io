@@ -19,6 +19,9 @@ function ExpenseItem() {
         <div className="expense-item__price">${expenseAmount}</div>
       </div>
       <button onClick={clickHandler}>Change Titles</button>
+      <button onClick={clickHandler}>Change Titles</button>
+      <button onClick={clickHandler}>Change Titles</button>
+      <button onClick={clickHandler}>Change Titles</button>
     </div>
   );
 }
