@@ -40,6 +40,7 @@ const friend = {
   job: "web developer",
   frindes: ["gopi", "hari", "ganga", "siva"],
   boys: ["gopi", "haris", "gangae", "sivane"],
+  boys: ["gopi", "haris", "gangae", "sivane"],
 };
 
 console.log(friend);
