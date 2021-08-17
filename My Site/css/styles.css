@@ -1,66 +1,106 @@
 body {
-  background-color: #e4f9f5;
+  /* background-color: #40514e; */
+  margin: 0;
   text-align: center;
-  font-family: ;
+  font-family: "merriweather", serif;
 }
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 150px auto 0 auto;
+  font-family: "sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+  color: #11999e;
+  font-size: 20px;
+}
+
 .top-container {
+  background-color: #e4f9f5;
   position: relative;
 }
+
 .top-container,
-h1,
 p {
-  margin-top: 50px;
+  padding: 0, 0, 10px, 0;
 }
-.contentPage {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: rosybrown;
-  box-shadow: 5px 5px 5px 5px #888888;
+
+.middle-container {
+  margin: 10px 0;
+  background-color: white;
 }
-h1 {
-  /* margin-top: 130px; */
-  font-family: "Sacramento", cursive;
-  /* font-family: 'Montserrat', sans-serif; */
+
+.bottom-container {
 }
-p {
-  font-family: "Merriweather", serif;
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
-h1,
-p {
-  width: 12%;
-  margin: 20px auto 0 auto;
-  /* font-size: 25px; */
+
+.pro {
+  text-decoration: underline;
 }
-.cloud1 {
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
   position: absolute;
-  top: 30px;
-  right: 250px;
+  right: 300px;
+  top: 20px;
 }
-.cloud2 {
-  top: 110px;
+
+.bottom-cloud {
   position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30%;
+  border-radius: 50%;
 }
 
 .montein {
   position: relative;
-  top: 50px;
+  top: 5px;
   left: 40px;
 }
-/* .middle-container {
-  height: 200px;
-  width: 200px;
-  padding-botto m: 20px;
-  padding: 10px;
-  border: 20px solid black;
-  background-color: red;
-  margin-left: 250px;
-} */
-/* .bottom-container {
-  background-color: gold;
-  height: 200px;
-  width: 200px;
-  padding-bottom: 20px;
-  border: 5px solid black;
-  margin-left: 510px;
-} */
+
+.profile,
+img {
+  margin-top: 50px;
+}
+.ang-img {
+  border-radius: 50%;
+}
